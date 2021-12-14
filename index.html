@@ -1,0 +1,568 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="lh.png" type="image/x-icon">
+    <title>Document</title>
+    <style>
+       body{
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+}
+/*corps du site*/
+.corpsdusite{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*fin corps du site*/
+/*en tete*/
+.elmntnav{
+    display: flex;
+    justify-content: space-between;
+}
+.elmntnav .onglets .elmntonglets{
+    display: flex;
+}
+.elmntnav .onglets .elmntonglets li{
+    list-style: none;
+    margin-right: 20px;
+}
+.elmntnav .onglets .elmntonglets li a{
+    float: right;
+    text-decoration: none;
+color: white;
+transition: 0.05s;
+}
+.elmntnav .onglets .elmntonglets li a:hover{
+    color: springgreen;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(artists/1.jpeg); 
+    background-size: cover;
+}
+h1,h2{
+text-align: center;
+max-width: 400px;
+margin-left: 400px;
+color:white;
+}
+h1 span{
+    color: springgreen;
+}
+.grostitre{
+    margin-left: 70px;
+}
+.coordonnes{
+    display: flex;
+    justify-content: space-between;
+    color:white ;
+}
+.coordonnes .adresse h5{
+margin-left: 20px;
+transition: 0.05s;
+}
+.coordonnes .adresse h5:hover{
+    color: springgreen;
+}
+.coordonnes .adresse h5 .a{
+    margin-left: 55px;
+}
+.coordonnes .adresse h5 p{
+    max-width: 200px;
+}
+.coordonnes .adresse h5 p .k{
+    margin-left: 20px;
+}
+.coordonnes .contact{
+ transition: 0.05s;   
+}
+.coordonnes .contact:hover{
+    color: springgreen;
+}
+.coordonnes .contact .elmtcontact{
+    max-width: 100px;
+    margin-left: 0px;
+}
+.coordonnes .horaire{
+    transition: 0.05s;
+}
+.coordonnes .horaire:hover{
+    color: springgreen;
+}
+.coordonnes .horaire .elmthoraire{
+    margin-right: 20px;
+}
+/*fin de en tete*/
+/*Article du site*/
+.bienvenue{
+    display: flex;
+    background-color:#222222;
+    }
+    .bienvenue .apptattoo img{
+        margin-left: 20px; 
+    }
+    .bienvenue .bienvenuetitre{
+        margin-left: 170px;
+    }
+    .bienvenue .bienvenuetitre h3 span{
+        color: white;
+        font-size: 40px;
+    }
+    .bienvenue .bienvenuetitre h3 .devise{
+        color:springgreen ;
+        margin-left: 70px;
+    }
+    .bienvenue .bienvenuetitre h3 .ptitedevise{
+        max-width: 500px;
+        color: white;
+        font-size: 18px;
+    }
+    .bienvenue .bienvenuetitre button{
+        padding: 10px 10px;
+        outline: none;
+        background-color: springgreen;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .bienvenue .bienvenuetitre button:hover{
+        background:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)) ;
+        color: white;
+    }
+/*fin Article du site*/
+/*services du site*/
+.servicessite{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(artists/4.jpeg); 
+    background-size: cover;  
+    display: flex;
+}
+/*fin services du site*/
+/*temoignage*/
+.temoignage{
+    background-color:#222222 ;
+}
+.temoignage .titretemoignage{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.temoignage .iltemoigne{
+    max-width: 500px;
+    font-size: 18px;
+    margin-left: 448px;
+    color: springgreen;
+}
+.temoignage .iltemoigne .trema{
+    color: white;
+    font-size: 30px;
+}
+.temoignage .personnage img{
+    border-radius: 100%;
+    margin-left: 590px;
+}
+/*fin temoignage*/
+/*equipe*/
+.cartes{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(artists/1.jpeg);
+    
+}
+.cartes .touteslescartes{
+    display: flex;
+    justify-content: center;
+}
+.cartes .carte1{
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.cartes .carte1 img{
+    border-radius: 70%;
+}
+.cartes .carte1 .nomcarte1{
+    color: white;
+}
+.cartes .carte1 .buttoncarte1{
+    padding-right:15px;
+    padding-left:15px;
+    margin-left: 10px;
+        outline: none;
+        background-color: springgreen;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .cartes .carte1 .buttoncarte1:hover{
+        background:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)) ;
+        color: white;
+    }
+    .cartes .contenutitre{
+        margin-left: 30px;
+    }
+/*fin equipe*/
+/*tarifs*/
+.contenustaro{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.contenustaro img{
+    margin-right: 30px;
+}
+.contenustaro .taro{
+    font-weight: bold;
+}
+.contenustaro .taro .taro1 .nomtaro{
+    color:springgreen ;
+}
+.contenutitretaro{
+    display: flex;
+    justify-content: center; 
+}
+.contenutitretaro .titretaro{
+    max-width: 250px;
+    margin-right: 400px;
+}
+.buttontaro{
+    display: flex;
+    justify-content: center;
+}
+.buttontaro button{
+    padding: 10px 10px;
+    outline: none;
+    background-color: springgreen;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.buttontaro button:hover{
+    background:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)) ;
+    color: white;
+}
+/*fin tarifs*/
+/*nos produits*/
+.contenuproduits{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(artists/1.jpeg); 
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+.contenuproduits .produit1 img{
+    margin-top: 15px;
+    border-radius: 10px;
+    transition: transform(2s);
+}
+.contenuproduits .produit1 img:hover{
+    transform: translateY(-10px);
+}
+.contenuproduits .produit1 .prod1{
+    color: white;
+    text-align: center;
+}
+.contenuproduits .produit1 .prix1{
+    color: springgreen;
+    text-align: center;
+}
+.contenuproduits .produit1 button{
+    padding-right:15px;
+    padding-left:15px;
+    margin-left: 10px;
+        outline: none;
+        background-color: springgreen;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        transition: 0.5s;
+        cursor: pointer;
+}
+.contenuproduits .produit1 button:hover{
+    background:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)) ;
+    color: white;
+}
+/*fin nos produits*/
+/*prendre un rdv*/
+h1{
+    text-align: center;
+}
+.contenurdv{
+display: flex;
+justify-content: center; 
+margin-right: 80px;
+}
+.contenurdv .b1{
+    margin-right: 200px;
+}
+.contenurdv .b1 .telb1{
+    margin-top: 10px;
+}
+.contenurdv .b1 .telb1 button{
+    padding: 10px 10px;
+    outline: none;
+    background-color: springgreen;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.contenurdv .b1 .telb1 button:hover{
+    background:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)) ;
+    color: white;
+}
+.contenurdv .b2 .telb1{
+    margin-top: 10px;
+}
+.contenurdv .b2 .telb1 button{
+    padding: 10px 10px;
+    outline: none;
+    background-color: springgreen;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.contenurdv .b2 .telb1 button:hover{
+    background:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)) ;
+    color: white;
+}
+input{
+    outline: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)) ;
+    color: white;
+    margin-left: 480px;
+    margin-top: 20px;
+}
+.envoi .send{
+    padding: 10px 10px;
+    outline: none;
+    background-color: springgreen;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-left: 540px;
+    margin-bottom: 20px;
+}
+.envoi .send:hover{
+    background:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)) ;
+    color: white;
+}
+/*fin prendre un rdv*/
+    </style>
+</head>
+<body>
+   <!--corps du site-->
+   <div class="corpsdusite">
+   <!--en tete-->
+   <header>
+   <nav class="elmntnav">
+<img src="logo.png" height="100px" width="100px" alt="">
+<div class="onglets">
+<ul class="elmntonglets">
+  <li><a href="#">Accueil</a></li> 
+  <li><a href="#service">Services</a></li> 
+  <li><a href="#lui">Témoignages</a></li> 
+  <li><a href="#ekip">Equipes</a></li> 
+  <li><a href="#">Tarifs</a></li> 
+   <li><a href="#">Produits</a></li>
+   <li><a href="#">RDV</a></li>
+</ul>
+</div>
+   </nav>
+      <div class="grostitre">
+     <h1><span>TATTOO STUDIO FOR</span> US by MK</h1>
+     <h2>Parce que vos histoires s'expriment à travers l'encre </h2>
+   </div>
+   <div class="coordonnes">
+      <div class="adresse">
+    <h5>
+       <span class="a">Adresse</span>
+       <p> 1824, avenue des aviateurs <span class="k">KINSHASA/GOMBE</span></p>
+      </h5>
+      </div>
+      <div class="contact">
+         <h5 class="elmtcontact">
+            <span class="c">contact</span>
+            <p>123-456-789</p>
+         </h5>
+      </div>
+      <div class="horaire">
+         <h5 class="elmthoraire">
+            <span class="h">Horaires</span>
+            <p>lundi-vendredi:8h-20h</p>
+         </h5>
+      </div>
+   </div>
+   </header>
+   <!--fin de en tete-->
+   <!--Article du site-->
+   <div class="bienvenue">
+      <div class="apptattoo">
+         <img src="artists/Nouveau projet 2.jpg" width="250px" height="300px"  alt="">
+      </div>
+      <div class="bienvenuetitre">
+        <h3>
+           <span>Bienvenue au salon T.S.U</span>
+         <p class="devise">Meilleur dans tout  ce que nous faisons</p>
+         <p class="ptitedevise">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae deleniti placeat vitae voluptate quod repudiandae et exercitationem, pariatur sint alias amet facere quo nobis dignissimos, numquam fuga, nesciunt ab? Tenetur.</p>
+      </h3>
+      <button>Prendre rendez-vous?</button>
+      </div>
+   </div>
+   <!--fin Article du site-->
+   <!--services du site-->
+   
+   <div class="servicessite">
+   <img src="artists/5.jpeg" class="lartist" width="250px" height="300px" alt="" id="service">
+   </div>
+   <!--fin services du site-->
+   <!--temoignage-->
+     <div class="temoignage">
+      <h3 class="titretemoignage">Témoignages</h3>
+      <p class="iltemoigne" id="lui"><span class="trema">"</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus consequuntur provident non aliquam, ipsum ab! Voluptates optio libero repellat ullam beatae, iste aut distinctio quo quas, autem deleniti provident necessitatibus!
+      Harum culpa excepturi suscipit iusto voluptates, architecto quam soluta recusandae nemo odit? Repellendus voluptate maiores, velit ad, sunt quis voluptatem totam quam sed rem est quisquam officiis, impedit neque perspiciatis?é <span class="trema">"</span></p>
+     <div class="personnage">
+        <img src="artists/6.jpg" width="100px" height="100px" alt="" >
+     </div>
+   </div>
+   <!--fin temoignage-->
+   <!--equipe--> 
+   <div class="cartes" id="ekip">
+      <div class="touteslescartes">
+      <div class="carte1">
+         <img src="artists/6.jpg" width="100px" height="100px" alt="">
+         <p class="nomcarte1">James patrick</p>
+         <button class="buttoncarte1">contact</button>
+      </div>
+      <div class="carte1">
+         <img src="artists/7.jpg" width="100px" height="100px" alt="">
+         <p class="nomcarte1">James patrick</p>
+         <button class="buttoncarte1">contact</button>
+      </div>
+      <div class="carte1">
+         <img src="artists/8.jpg" width="100px" height="100px" alt="">
+         <p class="nomcarte1">James patrick</p>
+         <button class="buttoncarte1">contact</button>
+      </div>
+      <div class="carte1">
+         <img src="artists/10.jpg" width="100px" height="100px" alt="">
+         <p class="nomcarte1">James patrick</p>
+         <button class="buttoncarte1">contact</button>
+      </div>
+      <div class="carte1">
+         <img src="artists/3.jpeg" width="100px" height="100px" alt="">
+         <p class="nomcarte1">James patrick</p>
+         <button class="buttoncarte1">contact</button>
+      </div>
+   </div>
+   <div class="contenutitre">
+   <h1 class="titreteam">Une équipe des pros <span>pour vous servir</span></h1>
+  </div>
+   </div>
+   <!--fin equipe--> 
+   <!--tarifs--> 
+   <div class="contenustaro">
+      <img src="artists/14.jpg" width="250px" height="300px" alt="">
+      <div class="taro">
+         <p class="taro1"  accesskey="T"><span class="nomtaro">TATTOO COMPLET</span>.................<span class="nomtaro">200$</span></p>
+         <p class="taro1"><span class="nomtaro">PIERCING</span>.................<span class="nomtaro">50$</span></p>
+         <p class="taro1"><span class="nomtaro">TATTOO BRAS</span>.................<span class="nomtaro">1200$</span></p>
+         <p class="taro1"><span class="nomtaro">TATTOO JAMBE</span>.................<span class="nomtaro">2200$</span></p>
+         <p class="taro1"><span class="nomtaro">TATTOO TORSE</span>.................<span class="nomtaro">4200$</span></p>
+         <p class="taro1"><span class="nomtaro">TATTOO DOS</span>.................<span class="nomtaro">10200$</span></p>
+         <p class="taro1"><span class="nomtaro">TATTOO TORSE</span>.................<span class="nomtaro">4200$</span></p>
+         <p class="taro1"><span class="nomtaro">TATTOO TORSE</span>.................<span class="nomtaro">4200$</span></p>
+        </div>
+   </div>
+   <div class="contenutitretaro">
+   <h1 class="titretaro">Des tarifs faits <span>sur mesure</span></h1>
+   </div>
+   <div class="buttontaro">
+   <button>contactez</button>
+   </div>
+   <!--fin tarifs-->
+    <!--nos produits-->
+    <div class="contenuproduits">
+       <div class="produit1">
+          <img src="articles/1.jpg" width="100px" height="100px" alt="">
+          <p class="prod1">encre tattoo</p>
+          <p class="prix1">$240</p>
+          <button>Acheter</button>
+       </div>
+       <div class="produit1">
+         <img src="articles/2.jpg" width="100px" height="100px" alt="">
+         <p class="prod1">encre tattoo</p>
+          <p class="prix1">$240</p>
+          <button>Acheter</button>
+      </div>
+      <div class="produit1">
+         <img src="articles/3.jpg" width="100px" height="100px" alt="">
+         <p class="prod1">encre tattoo</p>
+         <p class="prix1">$240</p>
+         <button>Acheter</button>
+      </div>
+      <div class="produit1">
+         <img src="articles/1.jpg" width="100px" height="100px" alt="">
+         <p class="prod1">encre tattoo</p>
+         <p class="prix1">$240</p>
+         <button>Acheter</button>
+      </div>
+      <div class="produit1">
+         <img src="articles/2.jpg" width="100px" height="100px" alt="">
+         <p class="prod1">encre tattoo</p>
+         <p class="prix1">$240</p>
+         <button>Acheter</button>
+      </div>
+      <div class="produit1">
+         <img src="articles/3.jpg" width="100px" height="100px" alt="">
+         <p class="prod1">encre tattoo</p>
+         <p class="prix1">$240</p>
+         <button>Acheter</button>
+      </div>
+    </div>
+    <!--fin nos produits-->
+    <!--prendre un rdv-->
+    <h1>prenez un <span>rendez-vous!!</span></h1>
+    <div class="contenurdv">
+       <div class="b1">
+          <div class="telb1">
+            <button>téléphone</button>
+          </div>
+          <div class="telb1">
+            <button>mail</button>
+          </div>
+       </div>
+       <div class="b2">
+          <div class="telb1">
+            <button>remplir un formulaire</button>
+          </div>
+          <div class="telb1">
+            <button>service client</button>
+          </div>
+       </div>
+    </div>
+    <input type="text" placeholder="envoyez nous votre avis" size="20">
+    <div class="envoi">
+     <a href="mailto:manassekanku36@gmail.com"><input type="submit" class="send"></a>
+    </div>
+    <!--fin prendre un rdv-->
+    <!--pied de la page-->
+    <footer>
+       
+    </footer>
+     <!--fin pied de la page-->
+   <!--fin corps du site-->
+</div>
+</body>
+</html>
